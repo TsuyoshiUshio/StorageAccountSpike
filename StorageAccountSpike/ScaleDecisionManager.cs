@@ -10,7 +10,7 @@ using Newtonsoft.Json;
 
 namespace StorageAccountSpike
 {
-    public class ScaleDecisionManager
+    public class ScaleDecisionManager : IScaleDecisionManager
     {
         private CloudStorageAccount storageAccount;
         private CloudBlobContainer cloudBlobContainer;

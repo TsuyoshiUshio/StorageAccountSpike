@@ -79,11 +79,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Configuration.cs" />
+    <Compile Include="IScaleDecisionManager.cs" />
     <Compile Include="ParallelUploadTest.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ScaleDecision.cs" />
     <Compile Include="ScaleDecisionManager.cs" />
+    <Compile Include="TableScaleDecisionManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config_example" />
